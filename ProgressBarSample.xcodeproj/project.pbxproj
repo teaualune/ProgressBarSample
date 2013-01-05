@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E64C645B168A015600DA68A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64C645A168A015600DA68A9 /* UIKit.framework */; };
+		E64C645D168A015600DA68A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64C645C168A015600DA68A9 /* Foundation.framework */; };
+		E64C645F168A015600DA68A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64C645E168A015600DA68A9 /* CoreGraphics.framework */; };
+		E64C6465168A015600DA68A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E64C6463168A015600DA68A9 /* InfoPlist.strings */; };
+		E64C6467168A015600DA68A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C6466168A015600DA68A9 /* main.m */; };
+		E64C646B168A015600DA68A9 /* PBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C646A168A015600DA68A9 /* PBSAppDelegate.m */; };
+		E64C646D168A015600DA68A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E64C646C168A015600DA68A9 /* Default.png */; };
+		E64C646F168A015600DA68A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E64C646E168A015600DA68A9 /* Default@2x.png */; };
+		E64C6471168A015600DA68A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E64C6470168A015600DA68A9 /* Default-568h@2x.png */; };
+		E64C6474168A015600DA68A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64C6472168A015600DA68A9 /* MainStoryboard.storyboard */; };
+		E64C6477168A015600DA68A9 /* PBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C6476168A015600DA68A9 /* PBSViewController.m */; };
+		E64C647F168A038500DA68A9 /* UIActivityIndicatorView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C647E168A038500DA68A9 /* UIActivityIndicatorView+Custom.m */; };
+		E64C6481168A03CC00DA68A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64C6480168A03CC00DA68A9 /* QuartzCore.framework */; };
+		E64C6484168A0E4300DA68A9 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = E64C6482168A0E4300DA68A9 /* progress.png */; };
+		E64C6485168A0E4300DA68A9 /* track.png in Resources */ = {isa = PBXBuildFile; fileRef = E64C6483168A0E4300DA68A9 /* track.png */; };
+		E64C6487168A164800DA68A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64C6486168A164800DA68A9 /* AudioToolbox.framework */; };
+		E64C6489168A182B00DA68A9 /* se16.wav in Resources */ = {isa = PBXBuildFile; fileRef = E64C6488168A182B00DA68A9 /* se16.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E64C6456168A015600DA68A9 /* ProgressBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64C645A168A015600DA68A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E64C645C168A015600DA68A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E64C645E168A015600DA68A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E64C6462168A015600DA68A9 /* ProgressBarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgressBarSample-Info.plist"; sourceTree = "<group>"; };
+		E64C6464168A015600DA68A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E64C6466168A015600DA68A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E64C6468168A015600DA68A9 /* ProgressBarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProgressBarSample-Prefix.pch"; sourceTree = "<group>"; };
+		E64C6469168A015600DA68A9 /* PBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBSAppDelegate.h; sourceTree = "<group>"; };
+		E64C646A168A015600DA68A9 /* PBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBSAppDelegate.m; sourceTree = "<group>"; };
+		E64C646C168A015600DA68A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E64C646E168A015600DA68A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E64C6470168A015600DA68A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E64C6473168A015600DA68A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E64C6475168A015600DA68A9 /* PBSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBSViewController.h; sourceTree = "<group>"; };
+		E64C6476168A015600DA68A9 /* PBSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBSViewController.m; sourceTree = "<group>"; };
+		E64C647D168A038500DA68A9 /* UIActivityIndicatorView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+Custom.h"; sourceTree = "<group>"; };
+		E64C647E168A038500DA68A9 /* UIActivityIndicatorView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+Custom.m"; sourceTree = "<group>"; };
+		E64C6480168A03CC00DA68A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E64C6482168A0E4300DA68A9 /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress.png; sourceTree = "<group>"; };
+		E64C6483168A0E4300DA68A9 /* track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track.png; sourceTree = "<group>"; };
+		E64C6486168A164800DA68A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E64C6488168A182B00DA68A9 /* se16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se16.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E64C6453168A015600DA68A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64C6487168A164800DA68A9 /* AudioToolbox.framework in Frameworks */,
+				E64C6481168A03CC00DA68A9 /* QuartzCore.framework in Frameworks */,
+				E64C645B168A015600DA68A9 /* UIKit.framework in Frameworks */,
+				E64C645D168A015600DA68A9 /* Foundation.framework in Frameworks */,
+				E64C645F168A015600DA68A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E64C644B168A015600DA68A9 = {
+			isa = PBXGroup;
+			children = (
+				E64C6486168A164800DA68A9 /* AudioToolbox.framework */,
+				E64C6480168A03CC00DA68A9 /* QuartzCore.framework */,
+				E64C6460168A015600DA68A9 /* ProgressBarSample */,
+				E64C6459168A015600DA68A9 /* Frameworks */,
+				E64C6457168A015600DA68A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E64C6457168A015600DA68A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E64C6456168A015600DA68A9 /* ProgressBarSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E64C6459168A015600DA68A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E64C645A168A015600DA68A9 /* UIKit.framework */,
+				E64C645C168A015600DA68A9 /* Foundation.framework */,
+				E64C645E168A015600DA68A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64C6460168A015600DA68A9 /* ProgressBarSample */ = {
+			isa = PBXGroup;
+			children = (
+				E64C6488168A182B00DA68A9 /* se16.wav */,
+				E64C6482168A0E4300DA68A9 /* progress.png */,
+				E64C6483168A0E4300DA68A9 /* track.png */,
+				E64C6469168A015600DA68A9 /* PBSAppDelegate.h */,
+				E64C646A168A015600DA68A9 /* PBSAppDelegate.m */,
+				E64C6472168A015600DA68A9 /* MainStoryboard.storyboard */,
+				E64C6475168A015600DA68A9 /* PBSViewController.h */,
+				E64C6476168A015600DA68A9 /* PBSViewController.m */,
+				E64C6461168A015600DA68A9 /* Supporting Files */,
+				E64C647D168A038500DA68A9 /* UIActivityIndicatorView+Custom.h */,
+				E64C647E168A038500DA68A9 /* UIActivityIndicatorView+Custom.m */,
+			);
+			path = ProgressBarSample;
+			sourceTree = "<group>";
+		};
+		E64C6461168A015600DA68A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E64C6462168A015600DA68A9 /* ProgressBarSample-Info.plist */,
+				E64C6463168A015600DA68A9 /* InfoPlist.strings */,
+				E64C6466168A015600DA68A9 /* main.m */,
+				E64C6468168A015600DA68A9 /* ProgressBarSample-Prefix.pch */,
+				E64C646C168A015600DA68A9 /* Default.png */,
+				E64C646E168A015600DA68A9 /* Default@2x.png */,
+				E64C6470168A015600DA68A9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E64C6455168A015600DA68A9 /* ProgressBarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64C647A168A015600DA68A9 /* Build configuration list for PBXNativeTarget "ProgressBarSample" */;
+			buildPhases = (
+				E64C6452168A015600DA68A9 /* Sources */,
+				E64C6453168A015600DA68A9 /* Frameworks */,
+				E64C6454168A015600DA68A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressBarSample;
+			productName = ProgressBarSample;
+			productReference = E64C6456168A015600DA68A9 /* ProgressBarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E64C644D168A015600DA68A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PBS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Teaualune Tseng";
+			};
+			buildConfigurationList = E64C6450168A015600DA68A9 /* Build configuration list for PBXProject "ProgressBarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E64C644B168A015600DA68A9;
+			productRefGroup = E64C6457168A015600DA68A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E64C6455168A015600DA68A9 /* ProgressBarSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E64C6454168A015600DA68A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64C6465168A015600DA68A9 /* InfoPlist.strings in Resources */,
+				E64C646D168A015600DA68A9 /* Default.png in Resources */,
+				E64C646F168A015600DA68A9 /* Default@2x.png in Resources */,
+				E64C6471168A015600DA68A9 /* Default-568h@2x.png in Resources */,
+				E64C6474168A015600DA68A9 /* MainStoryboard.storyboard in Resources */,
+				E64C6484168A0E4300DA68A9 /* progress.png in Resources */,
+				E64C6485168A0E4300DA68A9 /* track.png in Resources */,
+				E64C6489168A182B00DA68A9 /* se16.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E64C6452168A015600DA68A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64C6467168A015600DA68A9 /* main.m in Sources */,
+				E64C646B168A015600DA68A9 /* PBSAppDelegate.m in Sources */,
+				E64C6477168A015600DA68A9 /* PBSViewController.m in Sources */,
+				E64C647F168A038500DA68A9 /* UIActivityIndicatorView+Custom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E64C6463168A015600DA68A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64C6464168A015600DA68A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E64C6472168A015600DA68A9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64C6473168A015600DA68A9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E64C6478168A015600DA68A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E64C6479168A015600DA68A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E64C647B168A015600DA68A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgressBarSample/ProgressBarSample-Prefix.pch";
+				INFOPLIST_FILE = "ProgressBarSample/ProgressBarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E64C647C168A015600DA68A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgressBarSample/ProgressBarSample-Prefix.pch";
+				INFOPLIST_FILE = "ProgressBarSample/ProgressBarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E64C6450168A015600DA68A9 /* Build configuration list for PBXProject "ProgressBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64C6478168A015600DA68A9 /* Debug */,
+				E64C6479168A015600DA68A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E64C647A168A015600DA68A9 /* Build configuration list for PBXNativeTarget "ProgressBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64C647B168A015600DA68A9 /* Debug */,
+				E64C647C168A015600DA68A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E64C644D168A015600DA68A9 /* Project object */;
+}
